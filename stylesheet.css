@@ -52,7 +52,7 @@ li {
   
 }
 
-li.mamazon {
+.header-logo {
   
   list-style: none;
  
@@ -61,8 +61,9 @@ li.mamazon {
   
   padding: 0px 80px;
   
-  list-style-image:url("mamazon.jpg"); 
+  background:url("mamazon.jpg"); 
 
-  width: 60%;
-  hegiht: 50%;
+  width: 10%;
+  hegiht: 60%;
+  background-size: cover;
 }
