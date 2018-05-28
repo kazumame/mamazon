@@ -18,3 +18,51 @@ input:active {
   top: 3px;
   box-shadow: none;
 }
+
+.header {
+  
+  background-color: #26d0c9;
+  
+  color: #fff;
+  
+  height: 70px;
+}
+
+.header-logo {
+  
+  float: right;
+  
+  font-size: 36px;
+  
+  padding: 20px 40px;
+
+  list-style-image:url("mamazon.jpg");  
+
+}
+
+.header-list {
+  float: right;
+}
+
+li {
+  list-style: none;
+  float: right;
+ 
+  padding: 13px 20px;
+  
+}
+
+li.mamazon {
+  
+  list-style: none;
+ 
+  float: left;
+ 
+  
+  padding: 0px 80px;
+  
+  list-style-image:url("mamazon.jpg"); 
+
+  width: 60%;
+  hegiht: 50%;
+}
